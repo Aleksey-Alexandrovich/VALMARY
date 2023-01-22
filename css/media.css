@@ -1,0 +1,333 @@
+
+
+/* ------------------------------Mедиа для Шапки ----------------------------------------*/
+@media  (max-width: 1440px) {
+	.container {
+		width: 100%;
+		
+	}
+}
+
+
+@media  (max-width: 1280px) {
+	.container {
+		width: 100%;
+		
+	}
+
+	.header__logo {
+		margin-right: 200px;
+	}
+
+	.header__top {
+
+	}
+
+	.header__categories {
+		display: flex;
+		flex-wrap: wrap;	
+		
+	}
+}
+@media (max-width: 1000px) {
+
+		.container {
+			width: 100%;
+		}
+
+
+
+
+	.header__logo {
+		margin-right: 30px;
+	}
+
+	.header__categories {
+		display: flex;
+		flex-direction: column;	
+		align-items: center;
+		
+
+		
+		
+		
+		
+	}
+
+	.header__categories >li {
+		padding-bottom: 10px;
+	}
+
+}
+
+@media (max-width: 810px) {
+
+	.container {
+		width: 100%;
+	}
+	
+	.header__top {
+		display: flex;
+		flex-wrap: wrap;
+		background-color: #ECFFEB ;
+		
+	}
+
+	.header__phone>a {
+		font-size: 14px;
+		color: black;
+	}
+
+	.header__social > a >img {
+		width: 14px;
+	}
+
+
+	.header__line {
+		display: none;
+	}
+
+}
+
+@media(max-width: 715px) {
+	.container {
+		width: 100%;
+	}
+
+	.header__social {
+		display: none;
+	}
+
+	.language {
+		display: none;
+	}
+	.header__top {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.header__logo  {
+		
+	}
+
+}
+
+@media(max-width: 555px) {
+	.container {
+		width: 100%;
+	}
+
+
+	.header__phone {
+		display: none;
+	}
+
+	.header__categories>li{
+		line-height: 5;
+		display: flex;
+		font-size: 14px;
+	
+		
+		
+	}
+	
+}
+/* ------------------------------Mедиа для ФриВеба ----------------------------------------*/
+
+@media(max-width: 1240px) {
+
+	
+
+	.container {
+		width: 100%;
+	}
+
+	.freeWeb__girls > .ii {
+		width: 40%;
+		
+	}
+	.freeWeb__content {
+		text-align:justify;
+		
+		
+		
+	}
+
+
+}
+
+
+@media (max-width: 1024px) {
+	.freeWeb__girls > .ii {
+		display: none;
+
+		
+	}
+
+	.freeWeb__content {
+		text-align: center;
+	}
+
+	.freeWeb__subtitle {
+		margin-bottom: 30px;
+	}
+
+}
+
+@media (max-width: 610px) {
+	.freeWeb__button {
+		padding: 10px 20px 10px 20px;
+	}
+}
+
+@media (max-width: 520px) {
+	.freeWeb__button {
+		font-size: 14px;
+	}
+	
+	.freeWeb__title {
+		font-size: 40px;
+	}
+
+}
+@media (max-width: 425px) {
+	.freeWeb__button {
+		font-size: 14px;
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 20px;
+	}
+	
+	.freeWeb__title {
+		font-size: 24px;
+		line-height: 40px;
+	}
+	.freeWeb__text {
+		font-size: 16px;
+	}
+
+}
+
+/* ------------------------------Mедиа для Aboutus ----------------------------------------*/
+
+@media(max-width: 1240px) {
+	.container {
+		width: 100%;
+	}
+	.education__blocks {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		
+
+	}
+
+	.block__medic:nth-child(2){
+		margin-right: 0px;
+	}
+
+	.aboutus__img {
+		padding-right: 60px;
+		
+	}
+
+	.aboutus__img> img {
+		width: 400px;
+	}
+
+	.about__title {
+		font-size: 20px;
+	}
+
+	.about__p {
+		font-size: 20px;
+		
+	}
+
+
+}
+
+@media(max-width: 1024px) {
+	.container {
+		width: 100%;
+	}
+	.education__blocks {
+		display: flex;
+		flex-wrap: wrap;
+
+	}
+
+	.block__medic:nth-child(2){
+		margin-right: 0px;
+	}
+	.about__title {
+		font-size: 16px;
+		line-height: 2;
+		
+	}
+
+	.about__p {
+		font-size: 16px;
+		line-height: 1.5;
+		
+		
+	}
+
+	.about__link {
+		display: inline-block;
+	}
+
+}
+
+@media(max-width: 768px) {
+	.aboutus__content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.about__link {
+		margin-top: 20px;
+		display: block;
+		text-align: center;
+	}
+
+	.aboutus__img {
+		padding-right: 0px;
+	}
+
+}
+
+
+
+@media(max-width: 820px) {
+	.container {
+		width: 100%;
+	}
+	.education__blocks {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.block__medic:nth-child(2){
+		margin-right: 0px;
+	}
+
+	.education__h2 {
+		
+		font-size: 30px;
+	}
+
+}
+@media(max-width: 425px) {
+
+	.education__h2 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+}
+
+
